@@ -1,13 +1,28 @@
 module Uatu
-  class Resource < Hashie::Mash
+  class Resource < OpenStruct
 
-    def initialize(resource_hash, default=nil, &blk)
-      super(improve_hash(resource_hash), default, &blk)
+    def initialize(resource_hash)
+      super(improve_hash(resource_hash))
     end
 
     def improve_hash(original_hash)
-      resource_hash_w_underscore = underscore_keys(original_hash)
-      add_shortcuts(resource_hash_w_underscore)
+      output_hash = underscore_keys(original_hash)
+      output_hash = add_shortcuts(output_hash)
+      output_hash = mashify(output_hash)
+      output_hash
+    end
+
+    # We change the hasehs to mashes (Hashie::Mash) so it's easier to manipulate
+    def mashify(hash)
+      _hash = {}
+      hash.each do |k,v|
+        _hash[k] = if v.is_a?(Hash)
+          Hashie::Mash.new(v)
+        else
+          v
+        end
+      end
+      _hash
     end
 
     # Underscore names of the Hash. I mean... this is Ruby, right?.
