@@ -2,7 +2,7 @@
 
 Uatu is a Wrapper for the Marvel API. See [the API](http://developer.marvel.com) for more details. This a work in progress.
 
-Right now, Uatu relies on [Hashie::Mash](https://github.com/intridea/hashie) to build ruby objects with the API response. 
+Uatu relies on OpenStruct to build ruby objects with the API response. 
 
 Uatu is [also](http://en.wikipedia.org/wiki/Uatu) a member of The Watchers, that nice extraterrestrial race who monitor life of other species.
 
