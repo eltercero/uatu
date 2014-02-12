@@ -61,7 +61,6 @@ watcher.last_request_url
 asgardian_god_comics = watcher.character_comics(1009664)
 asgardian_god_comics.first.title
 "Thor: God of Thunder (2012) #2" # Which is, by the way, an amazing comic.
-asgardian_god_comics.
 ```
 
 ## Contributing
