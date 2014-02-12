@@ -23,9 +23,15 @@ module Uatu
 
     def build_route(method, options={})
       route = "/v1/public/#{valid_method(method)}"
-      if resource_id = options["#{method.singularize}_id".to_sym]
+      if resource_id = options["#{valid_method(method).singularize}_id".to_sym]
         route += "/#{resource_id}"
       end
+
+      # If it is combined, it comes afet the '_'
+      if method.split('_').count>1 && combined_path = method.split('_').last
+        route += "/#{combined_path}"
+      end
+
       route
     end
 
@@ -52,7 +58,7 @@ module Uatu
     end
 
     def valid_method(method)
-      _method = method.pluralize
+      _method = method.split('_').first.pluralize
       raise 'InvalidMethod' unless %w(characters series creators comics events stories).include?(_method)
       _method
     end

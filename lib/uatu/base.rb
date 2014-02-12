@@ -8,6 +8,7 @@ module Uatu
 
     attr_accessor *Configuration::VALID_CONFIG_KEYS
     attr_accessor :last_request_url
+    RESOURCES = %w(comic serie character event story creator)
 
     def initialize
       Configuration::VALID_CONFIG_KEYS.each do |key|
@@ -15,8 +16,9 @@ module Uatu
       end
     end
 
-    %w(comic serie character event story creator).each do |method_name|
+    RESOURCES.each do |method_name|
       # Singular
+      # example: GET /v1/public/characters/{characterId} => Uatu::Base.new.character
       define_method method_name do |id, options={}|
         raise Uatu::Error::BadRequest.new('options must be in a Hash') unless options.is_a?(Hash)
         options.merge!("#{method_name}_id".to_sym => id)
@@ -25,9 +27,22 @@ module Uatu
       end
 
       # Plural
+      # example: GET /v1/public/characters => Uatu::Base.new.characters
       define_method method_name.pluralize do |options={}|
         raise Uatu::Error::BadRequest.new('options must be in a Hash') unless options.is_a?(Hash)
         request_and_build(method_name, options)
+      end
+
+      # Combined
+      # example: GET /v1/public/characters/{characterId}/comics => Uatu::Base.new.character_comics
+      RESOURCES.each do |combined|
+        unless combined == method_name
+          define_method "#{method_name}_#{combined.pluralize}" do |id, options={}|
+            raise Uatu::Error::BadRequest.new('options must be in a Hash') unless options.is_a?(Hash)
+            options.merge!("#{method_name}_id".to_sym => id)
+            request_and_build("#{method_name}_#{combined.pluralize}", options) 
+          end
+        end
       end
     end
 
@@ -38,7 +53,7 @@ module Uatu
       self.last_request_url = response.env.url.to_s
 
       output = parsed_body['data']['results'].map do |resource_hash|
-        "Uatu::#{method_name.classify}".constantize.new(resource_hash)
+        "Uatu::#{method_name.split('_').last.classify}".constantize.new(resource_hash)
       end
 
       output 

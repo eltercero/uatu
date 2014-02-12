@@ -17,6 +17,12 @@ describe '.base' do
     hero.name.must_equal 'Daredevil'
   end
 
+  it "should be able to connect to Marvel API and bring comics from a character " do
+    hero_comics = @uatu.character_comics(1009262)
+    hero_comics.first.class.must_equal Uatu::Comic
+    hero_comics.first.characters.items.any?{|item| item['name'].must_equal 'Daredevil' } 
+  end
+
   it "should be able to connect to Marvel API and bring a creator" do
     creator = @uatu.creator(2)
     creator.first_name.must_equal 'Garth'
@@ -40,6 +46,6 @@ describe '.base' do
   it "should be able to connect to Marvel API and bring an comic" do
     comic = @uatu.comic(41530)
     comic.title.must_equal 'Ant-Man: So (Trade Paperback)'
-  end  
+  end
 
 end

@@ -56,13 +56,13 @@ character.thumbnail
 #There is also a handy method for checking out the last url you requested
 watcher.last_request_url
 => "http://gateway.marvel.com/v1/public/characters/1009262?apikey=xxx&hash=xxx&ts=2014-02-08T18%3A52%3A25%2B01%3A00"
+
+#For combined calls (like, comics in a character => GET /v1/public/characters/{characterId}/comics), you make them like this
+asgardian_god_comics = watcher.character_comics(1009664)
+asgardian_god_comics.first.title
+"Thor: God of Thunder (2012) #2" # Which is, by the way, an amazing comic.
+asgardian_god_comics.
 ```
-
-
-## TODO
-
-* Add support for calls within an object you already have. For example: "/v1/public/characters/{characterId}/comics".
-* Add more tests.
 
 ## Contributing
 
