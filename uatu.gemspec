@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'uatu/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Uatu"
+  spec.name          = "uatu-marvel"
   spec.version       = Uatu::VERSION
   spec.authors       = ["Victor"]
   spec.email         = ["victor.martin84@gmail.com"]

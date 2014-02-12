@@ -1,16 +1,18 @@
 # Uatu
 
-Uatu is a Wrapper for the Marvel API. See [the API](http://developer.marvel.com) for more details. This a work in progress.
-
-Uatu relies on OpenStruct to build ruby objects with the API response. 
+Uatu is a Wrapper for the Marvel API. See [the API](http://developer.marvel.com) for more details. It relies on OpenStruct to build ruby objects with the API response. 
 
 Uatu is [also](http://en.wikipedia.org/wiki/Uatu) a member of The Watchers, that nice extraterrestrial race who monitor life of other species.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+To get the latest stable:
 
-    gem 'uatu', git: https://github.com/eltercero/uatu
+    gem 'uatu-marvel'
+
+To get the latest code:
+
+    gem 'uatu-marvel', git: https://github.com/eltercero/uatu
 
 And then execute:
 
