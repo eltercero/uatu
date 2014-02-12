@@ -6,7 +6,7 @@ require 'uatu/version'
 Gem::Specification.new do |spec|
   spec.name          = "uatu-marvel"
   spec.version       = Uatu::VERSION
-  spec.authors       = ["Victor"]
+  spec.authors       = ["Víctor Martín"]
   spec.email         = ["victor.martin84@gmail.com"]
   spec.summary       = %q{Marvel API Wrapper}
   spec.description   = %q{Marvel API Wrapper for Ruby.}
