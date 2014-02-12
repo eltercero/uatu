@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Víctor Martín"]
   spec.email         = ["victor.martin84@gmail.com"]
   spec.summary       = %q{Marvel API Wrapper}
-  spec.description   = %q{Marvel API Wrapper for Ruby.}
+  spec.description   = %q{Lightweight Marvel API Wrapper for Ruby.}
   spec.homepage      = "https://github.com/eltercero/uatu"
   spec.license       = "MIT"
 
@@ -27,6 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'minitest', '~>5.2'
   spec.add_development_dependency 'json', '~>1.8'
   spec.add_development_dependency 'hashie', '~>2.0'
-  spec.add_development_dependency 'pry', '~>0.9'
   spec.add_development_dependency 'activesupport', '~>3.2'
 end

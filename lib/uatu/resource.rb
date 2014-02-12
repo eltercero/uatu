@@ -1,28 +1,8 @@
 module Uatu
   class Resource < OpenStruct
 
-    def initialize(resource_hash)
-      super(improve_hash(resource_hash))
-    end
-
-    def improve_hash(original_hash)
-      output_hash = underscore_keys(original_hash)
-      output_hash = add_shortcuts(output_hash)
-      output_hash = mashify(output_hash)
-      output_hash
-    end
-
-    # We change the hasehs to mashes (Hashie::Mash) so it's easier to manipulate
-    def mashify(hash)
-      _hash = {}
-      hash.each do |k,v|
-        _hash[k] = if v.is_a?(Hash)
-          Hashie::Mash.new(v)
-        else
-          v
-        end
-      end
-      _hash
+    def initialize(original_hash)
+      super(improve_values(underscore_keys(original_hash)))
     end
 
     # Underscore names of the Hash. I mean... this is Ruby, right?.
@@ -40,16 +20,20 @@ module Uatu
       _hash
     end
 
-    # That "thumbnail" hash in the original response drives me crazy
-    def add_shortcuts(args)
-      _args = {}
-      args.each do |k, v|
-        _args[k] = case k.to_s
-          when 'thumbnail' then [v['path'],v['extension']].join('.')
-          else v
+    # We change the hashes to mashes (Hashie::Mash) so it's easier to manipulate
+    # The 'thumbnail' hash drives me crazy, we convert it to a single value.
+    def improve_values(hash)
+      _hash = {}
+      hash.each do |k,v|
+        _hash[k] = if k.to_s=='thumbnail'
+          [v['path'],v['extension']].join('.')
+        elsif v.is_a?(Hash)
+          Hashie::Mash.new(v)
+        else
+          v
         end
       end
-      _args
+      _hash
     end
 
   end

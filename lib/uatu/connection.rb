@@ -42,7 +42,7 @@ module Uatu
       _options = options.reject{|key, value| key.to_s.match(/.*_id/)}
 
       # We change the names, so 'format_type' becomes 'formatType' 
-      _options.each{|key, value| valid_opts[unrubify(key)] = value }
+      _options.each{|key, value| valid_opts[key.to_s.camelize(:lower).to_sym] = value }
 
       # An array should become a string with comma separated values
       valid_opts.each{|key, value| valid_opts[key] = value.join(',') if value.is_a?(Array) }
@@ -50,21 +50,17 @@ module Uatu
       valid_opts
     end
 
-    def unrubify(name)
-      key = name.to_s
-      unrubified_key_array = key.split('_')
-      unrubified_key_array[1..-1].each(&:capitalize!)
-      unrubified_key_array.join.to_sym
-    end
-
+    # character => characters
+    # characters => characters
+    # character_comics => characters
     def valid_method(method)
       _method = method.split('_').first.pluralize
-      raise 'InvalidMethod' unless %w(characters series creators comics events stories).include?(_method)
+      raise Uatu::Error.new('InvalidMethod') unless Uatu::Base::RESOURCES.map(&:pluralize).include?(_method)
       _method
     end
 
     def current_timestamp
-      DateTime.now.to_s
+      @ts ||= DateTime.now.to_s
     end
 
     def hash(timestamp, conn_options)
@@ -72,8 +68,7 @@ module Uatu
     end
 
     def mandatory_params(conn_options)
-      ts = current_timestamp
-      {apikey: conn_options.public_key, ts: ts, hash: hash(ts, conn_options)}
+      {apikey: conn_options.public_key, ts: current_timestamp, hash: hash(current_timestamp, conn_options)}
     end
 
   end

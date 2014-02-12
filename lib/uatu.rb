@@ -11,7 +11,5 @@ require 'uatu/base'
 
 module Uatu
   extend Configuration
-
-
 end
 

@@ -16,7 +16,7 @@ module Uatu
         message = parsed_body['message'] || parsed_body['status']
 
         unless code.to_i == 200
-          raise Uatu::Error::ClientError.new "#{code} - #{message}\n ", {body: body, headers: headers}
+          raise Uatu::Error::ClientError.new "- Error code: #{code}\n- Message: #{message}\n ", {body: body, headers: headers}
         end
 
       end

@@ -23,7 +23,7 @@ And then execute:
 ```ruby
 require 'uatu'
 
-# You can also have them in your env.
+# You can also have them in your env => ENV["MARVEL_PUBLIC_KEY"] - ENV["MARVEL_PRIVATE_KEY"]
 Uatu.configure do |config|
   config.public_key = 'your_api_key'
   config.private_key = 'your_private_api_key'
