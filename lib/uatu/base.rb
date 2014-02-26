@@ -1,6 +1,6 @@
 require 'uatu/connection'
 require 'uatu/resource'
-require 'pry'
+require 'time'
 
 module Uatu
   class Base
@@ -43,6 +43,14 @@ module Uatu
             request_and_build("#{method_name}_#{combined.pluralize}", options) 
           end
         end
+      end
+
+      def comics_by_date(date_from,date_to)
+        options = {}
+        #options["dateRange"] = sanitize(date_from,date_to)
+        options["dateRange"] = date_from+','+date_to
+        request_and_build("comics", options) 
+
       end
     end
 

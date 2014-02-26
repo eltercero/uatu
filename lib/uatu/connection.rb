@@ -27,7 +27,7 @@ module Uatu
         route += "/#{resource_id}"
       end
 
-      # If it is combined, it comes afet the '_'
+      # If it is combined, it comes after the '_'
       if method.split('_').count>1 && combined_path = method.split('_').last
         route += "/#{combined_path}"
       end
