@@ -1,6 +1,6 @@
 require 'time'
 require 'helper'
-require 'pry'
+
 describe '.base' do
   
   before do 
