@@ -1,10 +1,12 @@
 require 'uatu/connection'
 require 'uatu/resource'
+require 'uatu/helpers'
 require 'time'
-
+require 'pry'
 module Uatu
   class Base
     include Uatu::Connection
+    include Uatu::Helper
 
     attr_accessor *Configuration::VALID_CONFIG_KEYS
     attr_accessor :last_request_url
@@ -46,11 +48,8 @@ module Uatu
       end
 
       def comics_by_date(date_from,date_to)
-        options = {}
-        #options["dateRange"] = sanitize(date_from,date_to)
-        options["dateRange"] = date_from+','+date_to
-        request_and_build("comics", options) 
-
+        options = clean_dates(date_from,date_to)
+        Uatu::Base.new.comics(options)
       end
     end
 

@@ -38,7 +38,7 @@ module Uatu
     def prepare_options(options)
       valid_opts = {}
       
-      # We remove innecessary keys that should go on the route
+      # We remove unnecessary keys that should go on the route
       _options = options.reject{|key, value| key.to_s.match(/.*_id/)}
 
       # We change the names, so 'format_type' becomes 'formatType' 

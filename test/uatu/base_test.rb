@@ -1,6 +1,6 @@
 require 'time'
 require 'helper'
-
+require 'pry'
 describe '.base' do
   
   before do 
@@ -49,9 +49,21 @@ describe '.base' do
     comic.title.must_equal 'Ant-Man: So (Trade Paperback)'
   end
 
-  it "should be able to connect to Marvel API and bring comics released on a date" do
-    comics_by_date = @uatu.comics_by_date('2014/01/01','2014/02/14')
-    assert comics_by_date.first.date >= Time.parse("2014/01/01")
-    assert comics_by_date.first.date <= Time.parse("2014/02/14")
+  describe '#comics_by_date' do
+    describe 'with dates in correct order' do
+      it "should be able to connect to Marvel API and bring comics released on a date" do
+        comics_by_date = @uatu.comics_by_date('2014/01/01','2014/02/14')
+        assert Time.parse(comics_by_date.first.dates.first['date']) >= Time.parse("2014/01/01")
+        assert Time.parse(comics_by_date.first.dates.first['date']) <= Time.parse("2014/02/14")
+      end
+    end
+
+    describe 'with dates switched' do
+      it "should be able to connect to Marvel API and bring comics released on a date" do
+        comics_by_date = @uatu.comics_by_date('2014/02/14','2014/01/01')
+        assert Time.parse(comics_by_date.first.dates.first['date']) >= Time.parse("2014/01/01")
+        assert Time.parse(comics_by_date.first.dates.first['date']) <= Time.parse("2014/02/14")
+      end
+    end
   end
 end
