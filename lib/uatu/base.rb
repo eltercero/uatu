@@ -1,8 +1,7 @@
 require 'uatu/connection'
 require 'uatu/resource'
 require 'uatu/helpers'
-require 'time'
-require 'pry'
+
 module Uatu
   class Base
     include Uatu::Connection

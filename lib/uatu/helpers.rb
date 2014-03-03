@@ -1,3 +1,5 @@
+require 'time'
+
 module Uatu
   module Helper
     def clean_dates(date_from,date_to)
