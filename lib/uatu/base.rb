@@ -1,10 +1,11 @@
 require 'uatu/connection'
 require 'uatu/resource'
-require 'pry'
+require 'uatu/helpers'
 
 module Uatu
   class Base
     include Uatu::Connection
+    include Uatu::Helper
 
     attr_accessor *Configuration::VALID_CONFIG_KEYS
     attr_accessor :last_request_url
@@ -43,6 +44,11 @@ module Uatu
             request_and_build("#{method_name}_#{combined.pluralize}", options) 
           end
         end
+      end
+
+      def comics_by_date(date_from,date_to)
+        options = clean_dates(date_from,date_to)
+        Uatu::Base.new.comics(options)
       end
     end
 
