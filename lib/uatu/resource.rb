@@ -5,6 +5,8 @@ module Uatu
       super(improve_values(underscore_keys(original_hash)))
     end
 
+  private
+
     # Underscore names of the Hash. I mean... this is Ruby, right?.
     def underscore_keys(hash)
       _hash = {}
@@ -37,11 +39,11 @@ module Uatu
     end
 
   end
-
-  class Character < Resource ; end  
-  class Event < Resource ; end  
-  class Comic < Resource ; end  
-  class Story < Resource ; end  
-  class Serie < Resource ; end  
-  class Creator < Resource ; end  
 end
+
+class Uatu::Character < Uatu::Resource ; end
+class Uatu::Event < Uatu::Resource ; end
+class Uatu::Comic < Uatu::Resource ; end
+class Uatu::Story < Uatu::Resource ; end
+class Uatu::Serie < Uatu::Resource ; end
+class Uatu::Creator < Uatu::Resource ; end
