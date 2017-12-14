@@ -1,14 +1,7 @@
 module Uatu
   class Base
-    attr_accessor *Configuration::VALID_CONFIG_KEYS
     attr_accessor :last_request_url
     RESOURCES = %w(comic serie character event story creator)
-
-    def initialize
-      Configuration::VALID_CONFIG_KEYS.each do |key|
-        send("#{key}=", Uatu.options[key])
-      end
-    end
 
     RESOURCES.each do |method_name|
       # Singular
@@ -43,7 +36,7 @@ module Uatu
   private
 
     def request_and_build(method_name, options)
-      response = connection.request(method_name, options, conn_options)
+      response = connection.request(method_name, options)
       parsed_body = JSON.parse(response.body)
 
       self.last_request_url = response.to_hash[:url].to_s
@@ -53,12 +46,6 @@ module Uatu
       end
 
       output
-    end
-
-    def conn_options
-      _conn_options = Hashie::Mash.new
-      Configuration::VALID_CONFIG_KEYS.each{|key| _conn_options[key] = send(key)}
-      _conn_options
     end
 
     def connection

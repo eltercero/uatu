@@ -4,7 +4,7 @@ describe Uatu::Connection do
 
   subject { described_class.new }
 
-  describe '#prepare_options' do
+  describe '#params_by' do
     let(:options) do
       {
         :format_type     => 'comic',
@@ -15,7 +15,7 @@ describe Uatu::Connection do
     end
 
     it 'prepares the options' do
-      unrubified = subject.send(:prepare_options, options)
+      unrubified = subject.send(:params_by, options)
 
       expect(unrubified[:formatType]).to eq 'comic'
       expect(unrubified[:dateDescriptor]).to eq 'lastWeek'
@@ -24,15 +24,15 @@ describe Uatu::Connection do
     end
   end
 
-  describe '#build_route' do
+  describe '#path_by' do
     it "should build normal routes just fine" do
-      route = subject.send(:build_route, 'character', {})
+      route = subject.send(:path_by, 'character')
       expect(route).to eq "/v1/public/characters"
 
-      route = subject.send(:build_route, 'characters', {})
+      route = subject.send(:path_by, 'characters')
       expect(route).to eq "/v1/public/characters"
 
-      route = subject.send(:build_route, 'character', {character_id: '1009262'})
+      route = subject.send(:path_by, 'character', {character_id: '1009262'})
       expect(route).to eq "/v1/public/characters/1009262"
     end
   end
