@@ -1,6 +1,8 @@
+[![Build Status](https://travis-ci.org/eltercero/uatu.png)](https://travis-ci.org/eltercero/uatu)
+
 # Uatu
 
-Uatu is a Wrapper for the Marvel API. See [the API](http://developer.marvel.com) for more details. It relies on OpenStruct to build ruby objects with the API response. 
+Uatu is a Wrapper for the Marvel API. See [the API](http://developer.marvel.com) for more details. It relies on OpenStruct to build ruby objects with the API response.
 
 Uatu is [also](http://en.wikipedia.org/wiki/Uatu) a member of The Watchers, that nice extraterrestrial race who monitor life of other species.
 
@@ -45,14 +47,14 @@ random_hero = watcher.characters(limit: 1, offset: rand(1000)).first.name
 random_heroes_team = watcher.characters(limit: 20, offset: rand(1000)).map(&:name)
 => ["Rumiko Fujikawa", "Runaways", "Russian", "S.H.I.E.L.D.", "Sabra", "Sabretooth", "Sabretooth (Age of Apocalypse)", "Sabretooth (House of M)", "Sabretooth (Ultimate)", "Sage", "Salem's Seven (Ultimate)", "Sally Floyd", "Salo", "Sandman", "Santa Claus", "Saracen (Muzzafar Lambert)", "Sasquatch (Walter Langkowski)", "Satana", "Sauron", "Scalphunter"]
 
-# Parameters are in ruby style. This means no camel case like firstName 
+# Parameters are in ruby style. This means no camel case like firstName
 irish_fella = watcher.creators(first_name: 'Garth', last_name: 'Ennis').first
 irish_fella.comics.available
 => 103
 
 #You can also search by id
 character = watcher.character(1009262)
-character.thumbnail 
+character.thumbnail
 => "http://i.annihil.us/u/prod/marvel/i/mg/d/50/50febb79985ee.jpg"
 
 #There is also a handy method for checking out the last url you requested
