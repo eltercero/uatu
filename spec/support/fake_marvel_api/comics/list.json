@@ -1,0 +1,1479 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2017 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2017 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2017 MARVEL</a>",
+  "etag": "deb829604851dd0cec847961613323497c61dc7e",
+  "data": {
+    "offset": 0,
+    "limit": 10,
+    "total": 926,
+    "count": 10,
+    "results": [
+      {
+        "id": 65443,
+        "digitalId": 0,
+        "title": "Black Panther: The Man Without Fear - The Complete Collection (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "In the wake of SHADOWLAND, Hell’s Kitchen has a new protector: the Black Panther! He has no kingdom, no Vibranium and no high-tech safety net — just bloody knuckles and the will to prove himself in a foreign land. T’Challa will create a new life, a new identity and become a new kind of hero. But with Daredevil gone, the bad guys are coming out to play, and a deadly nemesis — Vlad the Impaler — plots his bloody rise to power. Soon, the new Man Without Fear will face FEAR ITSELF! And when a killer starts targeting people T’Challa has saved, the Panther must go on the prowl to show exactly why he is the most dangerous man alive! Collecting BLACK PANTHER: THE MAN WITHOUT FEAR #513-523 and BLACK PANTHER: THE MOST DANGEROUS MAN ALIVE #523.1 and #524-529.",
+        "modified": "2017-12-13T19:24:35-0500",
+        "isbn": "978-1-302-90772-3",
+        "upc": "",
+        "diamondCode": "OCT170999",
+        "ean": "9781302 907723 53499",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 416,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "In the wake of SHADOWLAND, Hell’s Kitchen has a new protector: the Black Panther! He has no kingdom, no Vibranium and no high-tech safety net — just bloody knuckles and the will to prove himself in a foreign land. T’Challa will create a new life, a new identity and become a new kind of hero. But with Daredevil gone, the bad guys are coming out to play, and a deadly nemesis — Vlad the Impaler — plots his bloody rise to power. Soon, the new Man Without Fear will face FEAR ITSELF! And when a killer starts targeting people T’Challa has saved, the Panther must go on the prowl to show exactly why he is the most dangerous man alive! Collecting BLACK PANTHER: THE MAN WITHOUT FEAR #513-523 and BLACK PANTHER: THE MOST DANGEROUS MAN ALIVE #523.1 and #524-529."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/65443",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/65443/black_panther_the_man_without_fear_-_the_complete_collection_trade_paperback?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23808",
+          "name": "Black Panther: The Man Without Fear - The Complete Collection (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-12-27T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-11-06T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 34.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65443/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11886",
+              "name": "Francesco Francavilla",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10104",
+              "name": "David Liss",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65443/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009187",
+              "name": "Black Panther"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65443/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/142006",
+              "name": "cover from BLACK PANTHER: THE MAN WITHOUT FEAR - THE COMPLETE COLLECTION TPB (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/142007",
+              "name": "story from BLACK PANTHER: THE MAN WITHOUT FEAR - THE COMPLETE COLLECTION TPB (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65443/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 65331,
+        "digitalId": 0,
+        "title": "DOCTOR STRANGE: LORDS OF FEAR TPB (Trade Paperback)",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": null,
+        "modified": "2017-09-18T16:55:56-0400",
+        "isbn": "978-1-302-90786-0",
+        "upc": "",
+        "diamondCode": "OCT171019",
+        "ean": "9781302 907860 52999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 264,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/65331",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/65331/doctor_strange_lords_of_fear_tpb_trade_paperback?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23782",
+          "name": "DOCTOR STRANGE: LORDS OF FEAR TPB (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-12-27T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-11-06T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 29.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65331/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1273",
+              "name": "Scott Edelman",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10581",
+              "name": "Vero Gandini",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65331/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65331/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141768",
+              "name": "cover from DOCTOR STRANGE: LORDS OF FEAR TPB (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141769",
+              "name": "story from DOCTOR STRANGE: LORDS OF FEAR TPB (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65331/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 65275,
+        "digitalId": 0,
+        "title": "Defenders (2017) #8",
+        "issueNumber": 8,
+        "variantDescription": "",
+        "description": "KINGPINS OF NEW YORK Part 3! The bloody battle for the streets of New York hits a zenith, as one of the potential Kingpin crime lords has a change of heart that sends shock waves across the entire Marvel Universe. At the same time, Luke and Jessica’s bad press has a disastrous impact on their lives! How does Diamondback know so much about the Defenders?",
+        "modified": "2017-12-13T13:42:26-0500",
+        "isbn": "",
+        "upc": "75960608667200811",
+        "diamondCode": "OCT170908",
+        "ean": "",
+        "issn": "2327-4506",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "KINGPINS OF NEW YORK Part 3! The bloody battle for the streets of New York hits a zenith, as one of the potential Kingpin crime lords has a change of heart that sends shock waves across the entire Marvel Universe. At the same time, Luke and Jessica’s bad press has a disastrous impact on their lives! How does Diamondback know so much about the Defenders?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/65275",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/65275/defenders_2017_8?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Defenders-8/digital-comic/46781?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23074",
+          "name": "Defenders (2017 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-12-20T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-11-19T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/60/5a3171511b208",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/60/5a3171511b208",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/90/59cbea259b7ae",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65275/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+              "name": "Brian Michael Bendis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11610",
+              "name": "David Marquez",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13144",
+              "name": "Michael Oeming",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+              "name": "Vc Cory Petit",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/360",
+              "name": "Justin Ponsor",
+              "role": "colorist"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65275/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+              "name": "Deadpool"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009367",
+              "name": "Iron Fist (Danny Rand)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009378",
+              "name": "Jessica Jones"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009389",
+              "name": "Kingpin"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009215",
+              "name": "Luke Cage"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65275/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141656",
+              "name": "cover from Defenders (2017) #8",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141657",
+              "name": "story from Defenders (2017) #8",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65275/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 65746,
+        "digitalId": 0,
+        "title": "Spider-Man: Brand New Day - The Complete Collection Vol. 4 (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "A truly Amazing era of Spider-Man continues — with the former Green Goblin in charge! First, Spidey goes all-out, “24/7” to mess with J. Jonah Jameson — as a new Vulture makes his high-flying debut! But Norman Osborn is policing the nation with his Dark Avengers, and Peter Parker doesn’t like that one bit! Whose side is the armored American Son on — and what will Osborn’s Dark Reign mean for Mister Negative? Spidey will go from one of his greatest enemies to another when Doctor Octopus makes a comeback — like never before! Plus: Daredevil, a wedding and the return of one of the most important people in Peter’s life! Collecting AMAZING SPIDER-MAN (1999) #592-601 and ANNUAL #36, SPIDER-MAN: THE SHORT HALLOWEEN, DARK REIGN: MISTER NEGATIVE #1-3, AMAZING SPIDER-MAN: AMERICAN SON SKETCHBOOK, and material from AMAZING SPIDER-MAN FAMILY #7.",
+        "modified": "2017-12-13T15:25:22-0500",
+        "isbn": "978-1-302-90799-0",
+        "upc": "",
+        "diamondCode": "SEP171019",
+        "ean": "9781302 907990 53999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 504,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "A truly Amazing era of Spider-Man continues — with the former Green Goblin in charge! First, Spidey goes all-out, “24/7” to mess with J. Jonah Jameson — as a new Vulture makes his high-flying debut! But Norman Osborn is policing the nation with his Dark Avengers, and Peter Parker doesn’t like that one bit! Whose side is the armored American Son on — and what will Osborn’s Dark Reign mean for Mister Negative? Spidey will go from one of his greatest enemies to another when Doctor Octopus makes a comeback — like never before! Plus: Daredevil, a wedding and the return of one of the most important people in Peter’s life! Collecting AMAZING SPIDER-MAN (1999) #592-601 and ANNUAL #36, SPIDER-MAN: THE SHORT HALLOWEEN, DARK REIGN: MISTER NEGATIVE #1-3, AMAZING SPIDER-MAN: AMERICAN SON SKETCHBOOK, and material from AMAZING SPIDER-MAN FAMILY #7."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/65746",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/65746/spider-man_brand_new_day_-_the_complete_collection_vol_4_trade_paperback?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23873",
+          "name": "Spider-Man: Brand New Day - The Complete Collection Vol. 4 (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-12-20T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-10-30T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 39.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/00/5a3194631de32",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/00/5a3194631de32",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 9,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65746/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11748",
+              "name": "Marco Checchetto",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/306",
+              "name": "Phil Jimenez",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9137",
+              "name": "Mike McKone",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/7413",
+              "name": "PAULO SIQUEIRA",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2428",
+              "name": "Joe Kelly",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/30",
+              "name": "Stan Lee",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/626",
+              "name": "Dan Slott",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/119",
+              "name": "Mark Waid",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 9
+        },
+        "characters": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65746/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011367",
+              "name": "Dark Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009708",
+              "name": "Mary Jane Watson"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009325",
+              "name": "Norman Osborn"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man"
+            }
+          ],
+          "returned": 5
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65746/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/142612",
+              "name": "cover from SPIDER-MAN: BRAND NEW DAY - THE COMPLETE COLLECTION VOL. 4 TPB (2017) #4",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/142613",
+              "name": "story from SPIDER-MAN: BRAND NEW DAY - THE COMPLETE COLLECTION VOL. 4 TPB (2017) #4",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65746/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 65272,
+        "digitalId": 0,
+        "title": "Daredevil (2015) #596",
+        "issueNumber": 596,
+        "variantDescription": "",
+        "description": "MAYOR FISK Part 2! Newly elected Mayor Wilson Fisk has declared Daredevil Public Enemy No. 1. Now, every bit of law enforcement in New York City is out to take him down, and the Man Without Fear has nowhere to hide – while Matt Murdock receives the most incredible offer of his legal career.",
+        "modified": "2017-12-06T14:45:23-0500",
+        "isbn": "",
+        "upc": "75960608808959611",
+        "diamondCode": "OCT170910",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "MAYOR FISK Part 2! Newly elected Mayor Wilson Fisk has declared Daredevil Public Enemy No. 1. Now, every bit of law enforcement in New York City is out to take him down, and the Man Without Fear has nowhere to hide – while Matt Murdock receives the most incredible offer of his legal career."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/65272",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/65272/daredevil_2015_596?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Daredevil-596/digital-comic/46780?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/20780",
+          "name": "Daredevil (2015 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-12-13T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-11-14T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/5a284284bfc9d",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/5a284284bfc9d",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/30/59cbea11cf81e",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 7,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65272/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13038",
+              "name": "Daniel Mora Chavez",
+              "role": "inker (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13201",
+              "name": "Juan Fernandez",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9457",
+              "name": "Stefano Landini",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1405",
+              "name": "Matt Milla",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12371",
+              "name": "Charles Soule",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8822",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 7
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65272/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65272/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141650",
+              "name": "cover from Daredevil (2017) #596",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141651",
+              "name": "story from Daredevil (2017) #596",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65272/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 65330,
+        "digitalId": 0,
+        "title": "Defenders Vol. 1: Diamonds Are Forever (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Collects Defenders (2017) #1-5 and material from Free Comic Book Day 2017 (Guardians of the Galaxy) #1. Daredevil! Luke Cage! Jessica Jones! Iron Fist! Individually, these four heroes have been on the front lines of countless battles to keep the city safe and secure. But now, with a deadly enemy from the past making a major move to unite the underworld, they must become more - they must be Defenders! If the streets weren't mean enough already, they get more dangerous than ever when the Punisher sets his sights on his fellow vigilantes! As chaos threatens to engulf New York, can this group of socially maladjusted heroes trust each other enough to function as a team? Or will the power vacuum caused by the Kingpin's absence lead to all-out gang war? Only one thing could make life worse for the Defenders: Deadpool!",
+        "modified": "2017-12-06T17:52:25-0500",
+        "isbn": "978-1-302-90746-4",
+        "upc": "",
+        "diamondCode": "SEP171004",
+        "ean": "9781302 907464 51599",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 136,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Collects Defenders (2017) #1-5 and material from Free Comic Book Day 2017 (Guardians of the Galaxy) #1. Daredevil! Luke Cage! Jessica Jones! Iron Fist! Individually, these four heroes have been on the front lines of countless battles to keep the city safe and secure. But now, with a deadly enemy from the past making a major move to unite the underworld, they must become more - they must be Defenders! If the streets weren't mean enough already, they get more dangerous than ever when the Punisher sets his sights on his fellow vigilantes! As chaos threatens to engulf New York, can this group of socially maladjusted heroes trust each other enough to function as a team? Or will the power vacuum caused by the Kingpin's absence lead to all-out gang war? Only one thing could make life worse for the Defenders: Deadpool!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/65330",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/65330/defenders_vol_1_diamonds_are_forever_trade_paperback?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23781",
+          "name": "Defenders Vol. 1: Diamonds Are Forever (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-12-13T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-10-20T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 15.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/00/5a287e10905bb",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/00/5a287e10905bb",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65330/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+              "name": "Brian Michael Bendis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11610",
+              "name": "David Marquez",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65330/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+              "name": "Deadpool"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009367",
+              "name": "Iron Fist (Danny Rand)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009378",
+              "name": "Jessica Jones"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009389",
+              "name": "Kingpin"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009215",
+              "name": "Luke Cage"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65330/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141766",
+              "name": "cover from DEFENDERS VOL. 1: DIAMONDS ARE FOREVER TPB (2017) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141767",
+              "name": "story from DEFENDERS VOL. 1: DIAMONDS ARE FOREVER TPB (2017) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65330/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 62133,
+        "digitalId": 0,
+        "title": "Daredevil: Back in Black Vol. 5 - Supreme (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Matt Murdock takes his fight to the grandest stage of all: the Supreme Court! He has a bold new plan to eradicate crime in New York City using the massive power of the legal system! But does this mean he'll have to give up being Daredevil? It's the biggest case of Matt's career - but to win it, his alter ego will have to take to the witness stand! Luke Cage and Echo drop by - but when attorney Jennifer Walters, A.K.A. She-Hulk, enters the picture, will she lay down the law? And when Tombstone and the Kingpin weigh in, Matt faces the fight of his life! By the time his gambit reaches its endgame, will Daredevil claim the victory he was seeking - or will it just be the start of something far worse? Collecting DAREDEVIL (2015) #21-25.",
+        "modified": "2017-11-22T12:39:06-0500",
+        "isbn": "978-1-302-90563-7",
+        "upc": "",
+        "diamondCode": "JUL171224",
+        "ean": "9781302 905637 51999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 176,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Matt Murdock takes his fight to the grandest stage of all: the Supreme Court! He has a bold new plan to eradicate crime in New York City using the massive power of the legal system! But does this mean he'll have to give up being Daredevil? It's the biggest case of Matt's career - but to win it, his alter ego will have to take to the witness stand! Luke Cage and Echo drop by - but when attorney Jennifer Walters, A.K.A. She-Hulk, enters the picture, will she lay down the law? And when Tombstone and the Kingpin weigh in, Matt faces the fight of his life! By the time his gambit reaches its endgame, will Daredevil claim the victory he was seeking - or will it just be the start of something far worse? Collecting DAREDEVIL (2015) #21-25."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/62133",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/62133/daredevil_back_in_black_vol_5_-_supreme_trade_paperback?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/22760",
+          "name": "Daredevil: Back in Black Vol. 5 - Supreme (2017)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-11-29T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-10-09T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 19.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/b0/5a15c1da308df",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/b0/5a15c1da308df",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62133/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12905",
+              "name": "MIKE DEODATO Jr.",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12371",
+              "name": "Charles Soule",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13082",
+              "name": "Goran Sudzuka",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62133/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010785",
+              "name": "Echo"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009389",
+              "name": "Kingpin"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009215",
+              "name": "Luke Cage"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009583",
+              "name": "She-Hulk (Jennifer Walters)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009675",
+              "name": "Tombstone"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62133/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/134651",
+              "name": "cover from Daredevil: Back in Black (2018)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/134652",
+              "name": "story from Daredevil: Back in Black (2018)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/62133/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 65068,
+        "digitalId": 0,
+        "title": "Defenders (2017) #7",
+        "issueNumber": 7,
+        "variantDescription": "",
+        "description": "KINGPINS OF NEW YORK Part 2. The Kingpin’s kingdom is up for grabs and the streets of Marvel will burn as every major crime figure makes a play to be the next kingpin of crime! Unfortunately for them, this is exactly why the Defenders have gathered — to defend our streets and make them a safer place!",
+        "modified": "2017-11-08T15:30:16-0500",
+        "isbn": "",
+        "upc": "75960608667200711",
+        "diamondCode": "SEP170915",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "KINGPINS OF NEW YORK Part 2. The Kingpin’s kingdom is up for grabs and the streets of Marvel will burn as every major crime figure makes a play to be the next kingpin of crime! Unfortunately for them, this is exactly why the Defenders have gathered — to defend our streets and make them a safer place!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/65068",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/65068/defenders_2017_7?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Defenders-7/digital-comic/46393?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23074",
+          "name": "Defenders (2017 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-11-15T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-10-23T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/f0/5a03492328b07",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/f0/5a03492328b07",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/599ef437213aa",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65068/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+              "name": "Brian Michael Bendis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11610",
+              "name": "David Marquez",
+              "role": "inker (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/479",
+              "name": "Paul Mounts",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+              "name": "Vc Cory Petit",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/360",
+              "name": "Justin Ponsor",
+              "role": "colorist (cover)"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 7,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65068/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+              "name": "Deadpool"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009288",
+              "name": "Elektra"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009367",
+              "name": "Iron Fist (Danny Rand)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009378",
+              "name": "Jessica Jones"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009389",
+              "name": "Kingpin"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009215",
+              "name": "Luke Cage"
+            }
+          ],
+          "returned": 7
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65068/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141228",
+              "name": "cover from Defenders (2017) #7",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141229",
+              "name": "story from Defenders (2017) #7",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65068/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 65063,
+        "digitalId": 0,
+        "title": "Daredevil (2015) #595",
+        "issueNumber": 595,
+        "variantDescription": "",
+        "description": "MAYOR FISK. Part 1. New York City has fallen to Wilson Fisk, the Kingpin – Daredevil’s greatest and deadliest adversary. Matt Murdock has the law and he has his superhuman abilities – but Fisk has an entire city on his side. What can one man do? If he’s Daredevil, he can FIGHT. PLUS: Includes 3 bonus MARVEL PRIMER PAGES!",
+        "modified": "2017-11-01T14:51:06-0400",
+        "isbn": "",
+        "upc": "75960608808959511",
+        "diamondCode": "SEP170831",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "MAYOR FISK. Part 1. New York City has fallen to Wilson Fisk, the Kingpin – Daredevil’s greatest and deadliest adversary. Matt Murdock has the law and he has his superhuman abilities – but Fisk has an entire city on his side. What can one man do? If he’s Daredevil, he can FIGHT. PLUS: Includes 3 bonus MARVEL PRIMER PAGES!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/65063",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/65063/daredevil_2015_595?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Daredevil-595/digital-comic/46367?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/20780",
+          "name": "Daredevil (2015 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-11-08T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-10-16T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/59fa1207069da",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/59fa1207069da",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/10/599ef335e40f4",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65063/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12764",
+              "name": "Christina Harrington",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9457",
+              "name": "Stefano Landini",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1405",
+              "name": "Matt Milla",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/26",
+              "name": "Bill Sienkiewicz",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12371",
+              "name": "Charles Soule",
+              "role": "writer"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65063/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009389",
+              "name": "Kingpin"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65063/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141218",
+              "name": "cover from Daredevil (2017) #595",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/141219",
+              "name": "story from Daredevil (2017) #595",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/65063/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 60722,
+        "digitalId": 0,
+        "title": "Moon Girl and Devil Dinosaur (2015) #24",
+        "issueNumber": 24,
+        "variantDescription": "",
+        "description": "MOON GIRL AND…? After the earth-shattering events of issue #23, Moon Girl needs a new partner! Lunella takes three candidates for a test drive, but who will be the lucky hero to become her newest sidekick? Guest stars galore! Ghost Rider! Daredevil! The X-Babies!",
+        "modified": "2017-10-19T09:24:13-0400",
+        "isbn": "",
+        "upc": "759606084051002411",
+        "diamondCode": "AUG170956",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "MOON GIRL AND…? After the earth-shattering events of issue #23, Moon Girl needs a new partner! Lunella takes three candidates for a test drive, but who will be the lucky hero to become her newest sidekick? Guest stars galore! Ghost Rider! Daredevil! The X-Babies!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/60722",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/60722/moon_girl_and_devil_dinosaur_2015_24?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Moon-Girl-and-Devil-Dinosaur-24/digital-comic/46008?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/20839",
+          "name": "Moon Girl and Devil Dinosaur (2015 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-10-25T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-10-02T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/a0/59e7b03ae95cc",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/a0/59e7b03ae95cc",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/f0/597fa64309ce4",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 9,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60722/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12744",
+              "name": "Tamra Bonvillain",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12765",
+              "name": "Natacha Bustos",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13048",
+              "name": "Ray-&#8203;Anthony Height",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13228",
+              "name": "Michael Shelfer",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12411",
+              "name": "Felipe Smith",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13229",
+              "name": "Dominike Stanton",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+              "name": "Vc Travis Lanham",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11347",
+              "name": "Brandon Montclare",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13167",
+              "name": "Christopher Robinson",
+              "role": "editor"
+            }
+          ],
+          "returned": 9
+        },
+        "characters": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60722/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009318",
+              "name": "Ghost Rider (Johnny Blaze)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009448",
+              "name": "Mojo"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011418",
+              "name": "X-Babies"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+              "name": "X-Men"
+            }
+          ],
+          "returned": 5
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60722/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/131913",
+              "name": "cover from Moon Girl and Devil Dinosaur (2015) #24",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/131914",
+              "name": "story from Moon Girl and Devil Dinosaur (2015) #24",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60722/events",
+          "items": [],
+          "returned": 0
+        }
+      }
+    ]
+  }
+}

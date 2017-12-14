@@ -1,0 +1,523 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2017 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2017 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2017 MARVEL</a>",
+  "etag": "3dd2b9dcd7113cbc58230512043532da7d1a6561",
+  "data": {
+    "offset": 1000,
+    "limit": 7,
+    "total": 90512,
+    "count": 7,
+    "results": [
+      {
+        "id": 1208,
+        "title": "Interior #1208",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1208",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1208/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5106",
+              "name": "Scot Eaton",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/155",
+              "name": "Dan Jurgens",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/486",
+              "name": "Scott Koblish",
+              "role": "inker"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1208/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1208/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/581",
+              "name": "Thor (1998 - 2004)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/335",
+              "name": "Thor Vol. 5: The Reigning (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1208/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/166",
+              "name": "Thor (1998) #71"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1283",
+              "name": "Thor Vol. 5: The Reigning (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1208/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/166",
+          "name": "Thor (1998) #71"
+        }
+      },
+      {
+        "id": 1209,
+        "title": "Cover #1209",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1209",
+        "type": "cover",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1209/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/95",
+              "name": "Mike Allred",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1209/characters",
+          "items": [],
+          "returned": 0
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1209/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/462",
+              "name": "X-Statix (2002 - 2004)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/321",
+              "name": "X-Statix Vol. 3: Back from the Dead (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1209/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/218",
+              "name": "X-Statix (2002) #17"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1265",
+              "name": "X-Statix Vol. 3: Back from the Dead (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1209/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/218",
+          "name": "X-Statix (2002) #17"
+        }
+      },
+      {
+        "id": 1210,
+        "title": "Interior #1210",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1210",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1210/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/95",
+              "name": "Mike Allred",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/499",
+              "name": "Jay Bone",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/94",
+              "name": "Peter Milligan",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1210/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+              "name": "X-Men"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010806",
+              "name": "X-Statix"
+            }
+          ],
+          "returned": 2
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1210/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/462",
+              "name": "X-Statix (2002 - 2004)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/321",
+              "name": "X-Statix Vol. 3: Back from the Dead (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1210/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/218",
+              "name": "X-Statix (2002) #17"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1265",
+              "name": "X-Statix Vol. 3: Back from the Dead (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1210/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/218",
+          "name": "X-Statix (2002) #17"
+        }
+      },
+      {
+        "id": 1211,
+        "title": "Cover #1211",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1211",
+        "type": "cover",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1211/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/524",
+              "name": "Steve Ellis",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1211/characters",
+          "items": [],
+          "returned": 0
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1211/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/734",
+              "name": "Crimson Dynamo (2003 - 2004)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1211/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/293",
+              "name": "Crimson Dynamo (2003) #6"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1211/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/293",
+          "name": "Crimson Dynamo (2003) #6"
+        }
+      },
+      {
+        "id": 1212,
+        "title": "Interior #1212",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1212",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1212/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/525",
+              "name": "Joe Corroney",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8795",
+              "name": "John Miller",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1212/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009251",
+              "name": "Crimson Dynamo"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1212/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/734",
+              "name": "Crimson Dynamo (2003 - 2004)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1212/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/293",
+              "name": "Crimson Dynamo (2003) #6"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1212/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/293",
+          "name": "Crimson Dynamo (2003) #6"
+        }
+      },
+      {
+        "id": 1213,
+        "title": "Cover #1213",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1213",
+        "type": "cover",
+        "modified": "2016-05-02T12:18:21-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1213/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/23",
+              "name": "David Mack",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1213/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1213/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/449",
+              "name": "Daredevil (1998 - 2011)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/313",
+              "name": "Daredevil Vol. 8: Echo – Vision Quest (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1213/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/326",
+              "name": "Daredevil (1998) #53"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1257",
+              "name": "Daredevil Vol. 8: Echo – Vision Quest (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1213/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/326",
+          "name": "Daredevil (1998) #53"
+        }
+      },
+      {
+        "id": 1214,
+        "title": "Interior #1214",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1214",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1214/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/23",
+              "name": "David Mack",
+              "role": "writer"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1214/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+              "name": "Daredevil"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1214/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/449",
+              "name": "Daredevil (1998 - 2011)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/313",
+              "name": "Daredevil Vol. 8: Echo – Vision Quest (2004)"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1214/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/326",
+              "name": "Daredevil (1998) #53"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1257",
+              "name": "Daredevil Vol. 8: Echo – Vision Quest (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/1214/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/326",
+          "name": "Daredevil (1998) #53"
+        }
+      }
+    ]
+  }
+}

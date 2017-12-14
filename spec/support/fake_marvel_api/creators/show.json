@@ -1,0 +1,323 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2017 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2017 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2017 MARVEL</a>",
+  "etag": "7b3a479212d5d897b6101fd3533163dbdfcdadaa",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1,
+    "count": 1,
+    "results": [
+      {
+        "id": 2,
+        "firstName": "Garth",
+        "middleName": "",
+        "lastName": "Ennis",
+        "suffix": "",
+        "fullName": "Garth Ennis",
+        "modified": "2015-02-12T14:59:46-0500",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/f0/4bc6ad5b4bd54",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/creators/2",
+        "comics": {
+          "available": 104,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/2/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/39268",
+              "name": "Fury Max (2011) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/39270",
+              "name": "Fury Max (2011) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/39267",
+              "name": "Fury Max (2011) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/39269",
+              "name": "Fury Max (2011) #4"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/39266",
+              "name": "Fury Max (2011) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/39271",
+              "name": "Fury Max (2011) #6"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/40436",
+              "name": "Fury Max (2011) #7"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/40435",
+              "name": "Fury Max (2011) #8"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/40434",
+              "name": "Fury Max (2011) #9"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/40433",
+              "name": "Fury Max (2011) #10"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/40437",
+              "name": "Fury Max (2011) #11"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/40432",
+              "name": "Fury Max (2011) #12"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/42910",
+              "name": "Fury Max (2011) #13"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/39281",
+              "name": "FURY MAX: MY WAR GONE BY VOL. 1 TPB (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/40986",
+              "name": "FURY MAX: MY WAR GONE BY VOL. 2 TPB (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/50053",
+              "name": "Fury Max: My War Gone by (Hardcover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/116",
+              "name": "Punisher (2004) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/117",
+              "name": "Punisher (2004) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/115",
+              "name": "Punisher (2004) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/15005",
+              "name": "Punisher (2004) #4"
+            }
+          ],
+          "returned": 20
+        },
+        "series": {
+          "available": 26,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/2/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/14248",
+              "name": "Fury Max (2011 - 2013)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/18788",
+              "name": "Fury Max: My War Gone by (2014)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/14251",
+              "name": "FURY MAX: MY WAR GONE BY VOL. 1 TPB (2011 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/15191",
+              "name": "FURY MAX: MY WAR GONE BY VOL. 2 TPB (2011 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/698",
+              "name": "Punisher (2004 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1210",
+              "name": "Punisher Max Vol. 1: In the Beginning (2004)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1306",
+              "name": "Punisher Max Vol. 2: Kitchen Irish (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1361",
+              "name": "Punisher Max Vol. 3: Mother Russia (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1463",
+              "name": "Punisher Max Vol. 4: Up Is Down and Black Is White (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1602",
+              "name": "Punisher Max Vol. 5: The Slavers (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/13838",
+              "name": "Punisher Max Vol. 5: The Slavers (Reprint) (2011 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/15267",
+              "name": "Punisher Max Vol. 6: Barracuda (Reprint) (2011 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1957",
+              "name": "Punisher Max Vol. 7: Man of Stone (2007)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/20848",
+              "name": "Punisher Max: The Complete Collection Vol. 1 (2016)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/21518",
+              "name": "Punisher MAX: The Complete Collection Vol. 2 (2016)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/21533",
+              "name": "Punisher Max: The Complete Collection Vol. 3 (2016)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/21810",
+              "name": "Punisher Max: The Complete Collection Vol. 4 (2016)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/213",
+              "name": "Punisher Vol. 4: Full Auto (2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/21346",
+              "name": "Punisher Vs. the Marvel Universe (2016)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/21486",
+              "name": "Punisher: Born (2016)"
+            }
+          ],
+          "returned": 20
+        },
+        "stories": {
+          "available": 119,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/2/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1411",
+              "name": "Interior #1411",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1841",
+              "name": "Interior #1841",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2252",
+              "name": "Interior #2252",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2545",
+              "name": "1 of 6 - Mother Russia",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2547",
+              "name": "2 of 6 - Mother Russia",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2554",
+              "name": "Interior #2554",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2556",
+              "name": "Interior #2556",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2558",
+              "name": "Interior #2558",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2560",
+              "name": "Interior #2560",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2562",
+              "name": "Interior #2562",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2564",
+              "name": "Interior #2564",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2566",
+              "name": "Interior #2566",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2568",
+              "name": "\"KITCHEN IRISH\" PART 6 (OF 6) Everyone gets just what they deserve. The bloodcurdling, bloodthirsty, bloody ending to Kitchen Ir",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2570",
+              "name": "3 of 6 - Mother Russia",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2572",
+              "name": "4 of 6 - Mother Russia",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2574",
+              "name": "5 of 6 - Mother Russia",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2576",
+              "name": "6 of 6 - Mother Russia",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2578",
+              "name": "1 of 6 - Up Is Down and Black Is White",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2580",
+              "name": "2 of 6 - Up Is Down and Black Is White",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2582",
+              "name": "3 of 6 - Up Is Down and Black Is White",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 20
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/2/events",
+          "items": [],
+          "returned": 0
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/creators/2/garth_ennis?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ]
+      }
+    ]
+  }
+}

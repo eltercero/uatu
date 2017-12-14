@@ -1,0 +1,739 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2017 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2017 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2017 MARVEL</a>",
+  "etag": "f5b9b9947af734ef30e15bcad6bb014836572dd9",
+  "data": {
+    "offset": 100,
+    "limit": 6,
+    "total": 9834,
+    "count": 6,
+    "results": [
+      {
+        "id": 155,
+        "title": "Alias Vol. 2: Come Home (2003)",
+        "description": null,
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/155",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/series/155/alias_vol_2_come_home_2003?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "startYear": 2003,
+        "endYear": 2003,
+        "rating": "PARENTAL ADVISORY/EXPLICIT CONTENT",
+        "type": "collection",
+        "modified": "-0001-11-30T00:00:00-0500",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/155/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+              "name": "Brian Michael Bendis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/177",
+              "name": "Michael Gaydos",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/23",
+              "name": "David Mack",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/155/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/155/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/159",
+              "name": "Super hero-turned-private eye Jessica Jones travels to upstate New York to investigate the disappearance of a teenage girl rumor",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/160",
+              "name": "Super hero-turned-private eye Jessica Jones travels to upstate New York to investigate the disappearance of a teenage girl rumor",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/155/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1095",
+              "name": "Alias Vol. 2: Come Home (Trade Paperback)"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/155/events",
+          "items": [],
+          "returned": 0
+        },
+        "next": null,
+        "previous": null
+      },
+      {
+        "id": 195,
+        "title": "Alias Vol. 3: The Underneath (2003)",
+        "description": null,
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/195",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/series/195/alias_vol_3_the_underneath_2003?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "startYear": 2003,
+        "endYear": 2003,
+        "rating": "PARENTAL ADVISORY/EXPLICIT CONTENT",
+        "type": "collection",
+        "modified": "-0001-11-30T00:00:00-0500",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/195/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+              "name": "Brian Michael Bendis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/177",
+              "name": "Michael Gaydos",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/23",
+              "name": "David Mack",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/195/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/195/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/233",
+              "name": "Jessica investigates Spider-Woman, a woman who may have more in common with Jessica than just her first name. Plus: J. Jonah Jam",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234",
+              "name": "Jessica investigates Spider-Woman, a woman who may have more in common with Jessica than just her first name. Plus: J. Jonah Jam",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/195/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1136",
+              "name": "Alias Vol. 3: The Underneath (Trade Paperback)"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/195/events",
+          "items": [],
+          "returned": 0
+        },
+        "next": null,
+        "previous": null
+      },
+      {
+        "id": 320,
+        "title": "Alias Vol. 4: The Secret Origins of Jessica Jones (2004)",
+        "description": null,
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/320",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/series/320/alias_vol_4_the_secret_origins_of_jessica_jones_2004?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "startYear": 2004,
+        "endYear": 2004,
+        "rating": "PARENTAL ADVISORY/EXPLICIT CONTENT",
+        "type": "collection",
+        "modified": "-0001-11-30T00:00:00-0500",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/320/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+              "name": "Brian Michael Bendis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/177",
+              "name": "Michael Gaydos",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/23",
+              "name": "David Mack",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/320/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/320/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/422",
+              "name": "Once hard-nosed private eye Jessica Jones stood with Earth’s Mightiest Heroes, the Avengers, as a costumed super hero. Now, for ",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/423",
+              "name": "Once hard-nosed private eye Jessica Jones stood with Earth’s Mightiest Heroes, the Avengers, as a costumed super hero. Now, for ",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/320/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1264",
+              "name": "Alias Vol. 4: The Secret Origins of Jessica Jones (Trade Paperback)"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/320/events",
+          "items": [],
+          "returned": 0
+        },
+        "next": null,
+        "previous": null
+      },
+      {
+        "id": 7533,
+        "title": "All Select Comics 70th Anniversary Special (2009)",
+        "description": null,
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/7533",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/series/7533/all_select_comics_70th_anniversary_special_2009?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "startYear": 2009,
+        "endYear": 2009,
+        "rating": "",
+        "type": "",
+        "modified": "2011-10-06T17:30:23-0400",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/e0/4bb435ba832ed",
+          "extension": "jpg"
+        },
+        "creators": {
+          "available": 9,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7533/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/644",
+              "name": "Marc Guggenheim",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1342",
+              "name": "Russ Heath",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2985",
+              "name": "Javier Pulido",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/507",
+              "name": "Matt Hollingsworth",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1117",
+              "name": "Javier Rodriguez",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/7843",
+              "name": "Todd Klein",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/878",
+              "name": "Dave Lanphear",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4600",
+              "name": "Mark Paniccia",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/894",
+              "name": "Marcos Martin",
+              "role": "penciller"
+            }
+          ],
+          "returned": 9
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7533/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7533/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/53908",
+              "name": "Cover #53908",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/53909",
+              "name": "Interior #53909",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/54143",
+              "name": "Cover #54143",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/54144",
+              "name": "Interior #54144",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 4
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7533/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/24369",
+              "name": "All Select Comics 70th Anniversary Special (2009) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/24370",
+              "name": "All Select Comics 70th Anniversary Special (2009) #1 (MARTIN VARIANT)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7533/events",
+          "items": [],
+          "returned": 0
+        },
+        "next": null,
+        "previous": null
+      },
+      {
+        "id": 7534,
+        "title": "All Winners Comics 70th Anniversary Special (2009)",
+        "description": null,
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/7534",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/series/7534/all_winners_comics_70th_anniversary_special_2009?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "startYear": 2009,
+        "endYear": 2009,
+        "rating": "",
+        "type": "",
+        "modified": "2010-12-14T14:34:46-0500",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/00/4bb414e6de226",
+          "extension": "jpg"
+        },
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7534/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1004",
+              "name": "Daniel Acuna",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4508",
+              "name": "Steve Uy",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8678",
+              "name": "Jared Fletcher",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/438",
+              "name": "Karl Kesel",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/7843",
+              "name": "Todd Klein",
+              "role": "other"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/894",
+              "name": "Marcos Martin",
+              "role": "penciller"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7534/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009535",
+              "name": "Red Skull"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010791",
+              "name": "Sub-Mariner"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7534/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/53910",
+              "name": "Cover #53910",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/53911",
+              "name": "Interior #53911",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/54145",
+              "name": "Cover #54145",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/54146",
+              "name": "Interior #54146",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 4
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7534/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/24371",
+              "name": "All Winners Comics 70th Anniversary Special (2009) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/24372",
+              "name": "All Winners Comics 70th Anniversary Special (2009) #1 (MARTIN VARIANT)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/7534/events",
+          "items": [],
+          "returned": 0
+        },
+        "next": null,
+        "previous": null
+      },
+      {
+        "id": 19163,
+        "title": "All-New Captain America (2014 - Present)",
+        "description": null,
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/19163",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/series/19163/all-new_captain_america_2014_-_present?utm_campaign=apiRef&utm_source=dcc0afa448458533d901bf0ff81da74c"
+          }
+        ],
+        "startYear": 2014,
+        "endYear": 2099,
+        "rating": "",
+        "type": "",
+        "modified": "2015-07-01T16:07:57-0400",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/542eed66c2e03",
+          "extension": "jpg"
+        },
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/19163/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/192",
+              "name": "Stuart Immonen",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1275",
+              "name": "Kevin Nowlan",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12477",
+              "name": "Marguerite Sauvage",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11354",
+              "name": "Declan Shalvey",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11835",
+              "name": "Rick Remender",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/19163/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 19,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/19163/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/113884",
+              "name": "All-New Captain America (2014) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/113885",
+              "name": "All-New Captain America (2014) #1",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/114053",
+              "name": "cover from All-New Captain America (2014) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/114054",
+              "name": "story from All-New Captain America (2014) #2",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/114058",
+              "name": "story from All-New Captain America (2014) #3",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/114063",
+              "name": "cover from All-New Captain America (2014) #4",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/114064",
+              "name": "story from All-New Captain America (2014) #4",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/114067",
+              "name": "cover from All-New Captain America (2014) #5",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/114068",
+              "name": "story from All-New Captain America (2014) #5",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/114069",
+              "name": "cover from All-New Captain America (2014) #6",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/114070",
+              "name": "story from All-New Captain America (2014) #6",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117694",
+              "name": "cover from All-New Captain America (2014) #5 (TBD ARTIST WOM VARIANT)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117695",
+              "name": "story from All-New Captain America (2014) #5 (TBD ARTIST WOM VARIANT)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117888",
+              "name": "cover from All-New Captain America (2014) #6 (AVENGERS AOU MOVIE VARIANT)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117889",
+              "name": "story from All-New Captain America (2014) #6 (AVENGERS AOU MOVIE VARIANT)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117988",
+              "name": "All-New Captain America (2014) #3",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/118125",
+              "name": "cover from All-New Captain America (2014) #6 (TBD ARTIST WTD VARIANT)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/118126",
+              "name": "story from All-New Captain America (2014) #6 (TBD ARTIST WTD VARIANT)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/118222",
+              "name": "All-New Captain America (2014) #3",
+              "type": "cover"
+            }
+          ],
+          "returned": 19
+        },
+        "comics": {
+          "available": 10,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/19163/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/51053",
+              "name": "All-New Captain America (2014) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/51238",
+              "name": "All-New Captain America (2014) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/51240",
+              "name": "All-New Captain America (2014) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/53271",
+              "name": "All-New Captain America (2014) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/51243",
+              "name": "All-New Captain America (2014) #4"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/51245",
+              "name": "All-New Captain America (2014) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/53051",
+              "name": "All-New Captain America (2014) #5 (Sauvage Wom Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/51246",
+              "name": "All-New Captain America (2014) #6"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/53187",
+              "name": "All-New Captain America (2014) #6 (Nowlan Avengers Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/53380",
+              "name": "All-New Captain America (2014) #6 (Shalvey Wtd Variant)"
+            }
+          ],
+          "returned": 10
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/19163/events",
+          "items": [],
+          "returned": 0
+        },
+        "next": null,
+        "previous": null
+      }
+    ]
+  }
+}
