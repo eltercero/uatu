@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'minitest', '~>5.2'
   spec.add_development_dependency 'json', '~>1.8'
   spec.add_development_dependency 'hashie', '~>2.0'
-  spec.add_development_dependency 'activesupport', '~>3.2'
+  spec.add_development_dependency 'activesupport', '~>4.1.11'
 end
