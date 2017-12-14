@@ -7,6 +7,7 @@ require 'faraday'
 
 require 'uatu/version'
 require 'uatu/resources'
+require 'uatu/configuration'
 
 require 'uatu/endpoints/single'
 require 'uatu/endpoints/collection'
@@ -15,7 +16,6 @@ require 'uatu/endpoints/nested'
 require 'uatu/base'
 
 require 'uatu/response'
-require 'uatu/configuration'
 require 'uatu/connection'
 require 'uatu/resource'
 require 'uatu/error'
