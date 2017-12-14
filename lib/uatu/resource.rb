@@ -10,13 +10,13 @@ module Uatu
     # Underscore names of the Hash. I mean... this is Ruby, right?.
     def underscore_keys(hash)
       _hash = {}
-      hash.each do |k, v|
-        _hash[k.to_s.underscore] = if v.is_a?(Hash)
-          underscore_keys(v)
-        elsif v.is_a?(Array) and v.first.is_a?(Hash)
-          v.map{|h| underscore_keys(h)}
+      hash.each do |key, value|
+        _hash[key.to_s.underscore] = if value.is_a?(Hash)
+          underscore_keys(value)
+        elsif value.is_a?(Array) and value.first.is_a?(Hash)
+          value.map{|h| underscore_keys(h)}
         else
-          v
+          value
         end
       end
       _hash
@@ -42,8 +42,8 @@ module Uatu
 end
 
 class Uatu::Character < Uatu::Resource ; end
-class Uatu::Event < Uatu::Resource ; end
-class Uatu::Comic < Uatu::Resource ; end
-class Uatu::Story < Uatu::Resource ; end
-class Uatu::Serie < Uatu::Resource ; end
-class Uatu::Creator < Uatu::Resource ; end
+class Uatu::Event < Uatu::Resource     ; end
+class Uatu::Comic < Uatu::Resource     ; end
+class Uatu::Story < Uatu::Resource     ; end
+class Uatu::Serie < Uatu::Resource     ; end
+class Uatu::Creator < Uatu::Resource   ; end

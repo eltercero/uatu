@@ -39,18 +39,18 @@ module Uatu
     end
 
     def params
-      params = {}
+      request_params = {}
 
       # We remove unnecessary keys that should go on the route
       temp_params = options.reject{|key, value| key.to_s.match(/.*_id/)}
 
       # We change the names, so 'format_type' becomes 'formatType'
-      temp_params.each{|key, value| params[key.to_s.camelize(:lower).to_sym] = value }
+      temp_params.each{|key, value| request_params[key.to_s.camelize(:lower).to_sym] = value }
 
       # An array should become a string with comma separated values
-      params.each{|key, value| params[key] = value.join(',') if value.is_a?(Array) }
+      request_params.each{|key, value| request_params[key] = value.join(',') if value.is_a?(Array) }
 
-      params.merge(mandatory_params)
+      request_params.merge(mandatory_params)
     end
 
     # character => characters
