@@ -1,10 +1,5 @@
-require 'uatu/connection'
-require 'uatu/resource'
-require 'uatu/helpers'
-
 module Uatu
   class Base
-    include Uatu::Connection
     include Uatu::Helper
 
     attr_accessor *Configuration::VALID_CONFIG_KEYS
@@ -52,8 +47,10 @@ module Uatu
       end
     end
 
+  private
+
     def request_and_build(method_name, options)
-      response = request(method_name, options, conn_options)
+      response = connection.request(method_name, options, conn_options)
       parsed_body = JSON.parse(response.body)
 
       self.last_request_url = response.to_hash[:url].to_s
@@ -71,6 +68,9 @@ module Uatu
       _conn_options
     end
 
+    def connection
+      @connection ||= Uatu::Connection.new
+    end
 
   end
 end

@@ -2,8 +2,8 @@ require 'faraday'
 require 'uatu/response'
 
 module Uatu
-  module Connection
-    
+  class Connection
+
     def request(method, options, conn_options)
       conn = build_connection(conn_options)
       conn_params = prepare_options(options).merge(mandatory_params(conn_options))
@@ -12,12 +12,14 @@ module Uatu
       conn.get conn_route, conn_params
     end
 
+  private
+
     def build_connection(conn_options)
       Faraday.new(url: conn_options.base_url) do |faraday|
         faraday.use Uatu::Response::RaiseMarvelError
 
-        faraday.request  :url_encoded             
-        faraday.adapter  Faraday.default_adapter  
+        faraday.request  :url_encoded
+        faraday.adapter  Faraday.default_adapter
       end
     end
 
@@ -37,11 +39,11 @@ module Uatu
 
     def prepare_options(options)
       valid_opts = {}
-      
+
       # We remove unnecessary keys that should go on the route
       _options = options.reject{|key, value| key.to_s.match(/.*_id/)}
 
-      # We change the names, so 'format_type' becomes 'formatType' 
+      # We change the names, so 'format_type' becomes 'formatType'
       _options.each{|key, value| valid_opts[key.to_s.camelize(:lower).to_sym] = value }
 
       # An array should become a string with comma separated values
@@ -64,7 +66,7 @@ module Uatu
     end
 
     def hash(timestamp, conn_options)
-      Digest::MD5.hexdigest("#{timestamp}#{conn_options.private_key}#{conn_options.public_key}")      
+      Digest::MD5.hexdigest("#{timestamp}#{conn_options.private_key}#{conn_options.public_key}")
     end
 
     def mandatory_params(conn_options)
