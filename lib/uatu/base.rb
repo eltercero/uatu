@@ -41,7 +41,7 @@ module Uatu
           define_method "#{method_name}_#{combined.pluralize}" do |id, options={}|
             raise Uatu::Error::BadRequest.new('options must be in a Hash') unless options.is_a?(Hash)
             options.merge!("#{method_name}_id".to_sym => id)
-            request_and_build("#{method_name}_#{combined.pluralize}", options) 
+            request_and_build("#{method_name}_#{combined.pluralize}", options)
           end
         end
       end
@@ -56,13 +56,13 @@ module Uatu
       response = request(method_name, options, conn_options)
       parsed_body = JSON.parse(response.body)
 
-      self.last_request_url = response.env.url.to_s
+      self.last_request_url = response.to_hash[:url].to_s
 
       output = parsed_body['data']['results'].map do |resource_hash|
         "Uatu::#{method_name.split('_').last.classify}".constantize.new(resource_hash)
       end
 
-      output 
+      output
     end
 
     def conn_options
