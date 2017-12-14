@@ -26,13 +26,13 @@ module Uatu
     # The 'thumbnail' hash drives me crazy, we convert it to a single value.
     def improve_values(hash)
       _hash = {}
-      hash.each do |k,v|
-        _hash[k] = if k.to_s=='thumbnail'
-          [v['path'],v['extension']].join('.')
-        elsif v.is_a?(Hash)
-          Hashie::Mash.new(v)
+      hash.each do |key, value|
+        _hash[key] = if key.to_s=='thumbnail' && !value.nil?
+          [value['path'],value['extension']].join('.')
+        elsif value.is_a?(Hash)
+          Hashie::Mash.new(value)
         else
-          v
+          value
         end
       end
       _hash

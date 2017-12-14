@@ -1,6 +1,3 @@
-require 'faraday'
-require 'uatu/response'
-
 module Uatu
   class Connection
 

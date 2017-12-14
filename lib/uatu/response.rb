@@ -1,9 +1,6 @@
-require 'faraday'
-require 'uatu/error'
-
 module Uatu
   module Response
-    
+
     class RaiseMarvelError < Faraday::Response::Middleware
 
       def on_complete(env)
