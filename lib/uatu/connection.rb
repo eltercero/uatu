@@ -4,7 +4,7 @@ require 'uatu/response'
 module Uatu
   class Connection
 
-    def request(method, options, conn_options)
+    def request method, options, conn_options
       conn = build_connection(conn_options)
       conn_params = prepare_options(options).merge(mandatory_params(conn_options))
       conn_route = build_route(method, options)
@@ -70,7 +70,11 @@ module Uatu
     end
 
     def mandatory_params(conn_options)
-      {apikey: conn_options.public_key, ts: current_timestamp, hash: hash(current_timestamp, conn_options)}
+      {
+        :apikey => conn_options.public_key,
+        :ts     => current_timestamp,
+        :hash   => hash(current_timestamp, conn_options)
+      }
     end
 
   end
