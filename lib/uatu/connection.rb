@@ -3,10 +3,14 @@ module Uatu
 
     BASE_URL = "http://gateway.marvel.com"
 
-    def request resource, options
-      path   = path_by(resource, options)
-      params = params_by(options)
+    attr_reader :resource, :options
 
+    def initialize resource, options
+      @resource = resource
+      @options  = options
+    end
+
+    def request
       connection.get path, params
     end
 
@@ -20,9 +24,9 @@ module Uatu
       end
     end
 
-    def path_by resource, options={}
-      route = "/v1/public/#{resource_path(resource)}"
-      if resource_id = options["#{resource_path(resource).singularize}_id".to_sym]
+    def path
+      route = "/v1/public/#{resource_path}"
+      if resource_id = options["#{resource_path.singularize}_id".to_sym]
         route += "/#{resource_id}"
       end
 
@@ -34,7 +38,7 @@ module Uatu
       route
     end
 
-    def params_by options
+    def params
       params = {}
 
       # We remove unnecessary keys that should go on the route
@@ -52,9 +56,9 @@ module Uatu
     # character => characters
     # characters => characters
     # character_comics => characters
-    def resource_path resource
+    def resource_path
       @resource_path ||= resource.split('_').first.pluralize.tap do |path|
-        raise Uatu::Error.new('InvalidMethod') unless Uatu::Base::RESOURCES.map(&:pluralize).include?(path)
+        raise Uatu::Error.new('InvalidMethod') unless Uatu::RESOURCES.map(&:pluralize).include?(path)
       end
     end
 
